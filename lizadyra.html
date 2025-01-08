@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>лиза дура <3</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #333, #111);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            margin: 15px 0;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+        }
+
+        .section h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #eee;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            letter-spacing: 1px;
+            animation: slideIn 1s ease-out;
+        }
+
+        .section p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin: 5px 0;
+            color: #ccc;
+            transition: color 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .section p:hover {
+            color: #fff;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .section {
+                max-width: 100%;
+                margin: 10px 0;
+                padding: 20px;
+            }
+            .section h1 {
+                font-size: 28px;
+            }
+            .section p {
+                font-size: 18px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>ЛИЗОЧКА ДУРА ОТСТАЛАЯ</h1>
+        <p>сука</p>
+        <p>су4ка</p>
+        <p>сучаоа</p>
+    </div>
+    <div class="section">
+        <h1>ЛИЗА ДУРАТУПАЯ</h1>
+        <p>уебище</p>
+        <p>скотина</p>
+        <p>я изменился =D</p>
+    </div>
+    <div class="section">
+        <h1>ЛИЗА ДУРА</h1>
+        <p>мразь</p>
+        <p>шалава тупая</p>
+        <p>это тебе: </p>
+    </div>
+    <div class="section">
+        <h1>ЛИЗА ДУРА ЕБАНАЯ</h1>
+        <p>ТВАРЬ</p>
+        <p>сволачь</p>
+        <p>мымра</p>
+    </div>
+</body>
+</html>
